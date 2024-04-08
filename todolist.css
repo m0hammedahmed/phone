@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color:black;
+    text-align: center;
+    padding: 20px;
+}
+.all{
+    width: 80%;
+    margin: auto;
+}
+h2{
+    font-size: 45px; 
+    font-weight: 700;
+    color: beige;
+    margin: 30px;
+}
+input{
+    width: 70%;
+    height: 40px;
+    border: 1px red dashed;
+}
+button{
+    width: 20%;
+    font-weight: 700;
+    font-size: 20px;
+}

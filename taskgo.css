@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.head{
+    width: 100%;
+    background-color: rgb(33, 144, 203);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px; 
+    text-transform: uppercase;
+    /* flex-wrap: nowrap; */
+    position: fixed;
+    z-index: 1200;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    justify-items: center;
+
+}
+.logo{
+    width: 10%;
+    text-decoration: none;
+    padding:  0px 150px;
+    font-weight: bold;
+    font-size: large;
+    height: 40px;
+    color: aliceblue;
+    margin-top: 20px;
+}
+.links{
+    margin-top: 20px;
+    height: 40px;
+    width: 90%;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0px 100px;
+    color: aliceblue;
+
+}
+.links a{
+    text-decoration: none;
+    margin: 5px;
+    color: aliceblue;
+}
+.links .buy{
+    border: 1px black solid ;
+    background-color:rgb(61, 61, 240);
+    color: aliceblue;
+    width: 30px;
+    height: 30px;
+}
+.logo:hover{
+    color: black;
+}
+.links a:hover{
+    color: black;
+}
+section{
+    background-color: antiquewhite;
+    width: 100%;
+}
+section {
+    padding: 100px ;
+    width: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    align-items: center;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background: url(wcomputer.jpg) no-repeat;
+    position: relative;
+}
+.in{
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    background-color: rgb(214, 233, 227);
+    width: 200px;
+    margin-left: 852px;
+    height: 250px;
+}
+.in .in1 input {
+    margin: 7px;
+}
